@@ -56,17 +56,17 @@ The file `problem1.practice.txt` is sample input for this question and the file 
 ####Clarification
 * Each string in character notation will have exactly 1 "o" character. However, that "o" character can appear anywhere in the string.
 
-###2) Sum of even Fibonacci numbers (1 point)
+###2) The VandyNacci Sequence (1 point)
 
 ####OVERVIEW
 
-In the Fibonacci sequence, each subsequent number in the sequence is the sum of the prior two numbers.
+In the Fibonacci sequence, each subsequent number in the sequence is the sum of the prior two numbers. In the *VandyNacci* sequence, each subsequent number in the sequence is the sum of the prior *three* numbers.
 
-0, 1, 1, 2, 3, 5, 8, 13, 21 ...
+0, 1, 1, 2, 4, 7, 13, 24, 44 ...
 
 ####PROBLEM
 
-Write a program that produces the sum of all the even Fibonacci numbers under a given number. For example, if given the number 20, your program should produce the result 10.
+Write a program that produces the sum of all the VandyNacci numbers that are both divisible by 3 **and** under a given number. For example, if given the number 30, your program should produce the result 24.
 
 Warning: Your program should be able to handle the sum of a long sequence of numbers.
 
