@@ -41,7 +41,7 @@ So the following notation maps to numbers:
 * aao -> 4
 * aaao -> 6
 * aado -> 3
-* aamamo -> 36
+* aamamo -> 20
 
 Note that the o character does not change the value of the number but just indicates that it should be outputted to the screen/file.
 
