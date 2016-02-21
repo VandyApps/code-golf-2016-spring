@@ -18,14 +18,16 @@ Each problem has a sample input and sample output file to test your coded. For t
 You will be submitting 2 files per problem that you attempt to solve, a file containing the output solution and another file containing the code used to compute the solution. Your code will not be executed or interpreted, but will be used to compute your code golf score.
 
 The programming files that you submit must look something like:
-* mcnamabd.4.js
-* smithah.3.php
+* donnyt.4.js
+* sandersb.3.php
+* [vunetID].[problem #].[extension]
 
 This contains your vunet id, followed by a dot, then the problem number this program is for, followed by another dot, and finally the executable extension. The extension is not important and not used (you can program in any language you would like).
 
-Your solution files must be in the following format:
-* pauljs.4s.txt
-* mcnamabd.1s.txt
+Your output files must be in the following format. Note the extension, ''.txt'':
+* donnyt.4.txt
+* sandersb.1.txt
+* [vunetID].[problem #].txt
 
 The solution files have a similar format to your program files, except each problem number must be followed by the "s" suffix, indicating "solution".
 
