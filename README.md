@@ -3,7 +3,15 @@ CODE  GOLF
 
 ###Objective:
 
-Solve as many coding problems as possible in the given time. Make sure to use as little code as possible to compute your solutions.  There are a total of 6 problems that need to be solved. Some problems are worth more points than others, so keep in mind that if you have more points than someone else, you will beat them even if your code golf score is worse. Each problem has a sample input and sample output file to test your coded. For the last 10 minutes of the competition, the final input files will be published for anyone to see and process. You have 10 minutes to go through the final input files and produce your final output files, which you should submit via email to [vandyapps@gmail.com](http://mailto:vandyapps@gmail.com).
+Solve as many coding problems as possible in the given time. Make sure to use as little code as possible to compute your solutions.  There are a total of 6 problems that need to be solved. Each problem is scored based upon a combination of correctness and number of characters used.
+
+If you get a problem correct, your score for the problem is:
+```characterCount / problemDifficulty```
+
+If you get a problem wrong, your score for the problem is:
+```problemPenalty / problemDifficulty```
+
+Each problem has a sample input and sample output file to test your coded. For the last 10 minutes of the competition, the final input files will be published for anyone to see and process. You have 10 minutes to go through the final input files and produce your final output files, which you should submit via email to [vandyapps@gmail.com](http://mailto:vandyapps@gmail.com).
 
 ###Submission Instructions
 
