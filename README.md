@@ -31,21 +31,21 @@ Please zip or tar your files before submitting them.
 
 We can represent numbers in a type of character notation with the following rules:
 
-* i indicates increment
+* a indicates add 2
 * d indicates decrement
-* s indicates square
+* m indicates multiply by 2
 * o indicates output
 
 So the following notation maps to numbers:
 
-* iio -> 2
-* iiio -> 3
-* iido -> 1
-* iisiso -> 25
+* aao -> 4
+* aaao -> 6
+* aado -> 3
+* aamamo -> 36
 
 Note that the o character does not change the value of the number but just indicates that it should be outputted to the screen/file.
 
-So, iioi will output 2 since o shows up before the last i "increment".
+So, aaoa will output 4 since o shows up before the last a "add 2".
 
 
 ####PROBLEM
