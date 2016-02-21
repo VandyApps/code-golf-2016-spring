@@ -82,21 +82,28 @@ Warning: Your program should be able to handle the sum of a long sequence of num
 
 The file `problem2.practice.txt` is sample input for this question and the file `problem2s.practice.txt` is sample output.
 
-###3) Recursion! (1 point)
+###3) A Teddy Bear Picnic (2 points)
 
 ####OVERVIEW
 
-A recursive function is defined below:
+I decide to give you a lot of teddy bears. You can give me back teddy bears with the following rules:
 
-```
-F(0, n) = n + 1
-F(m, 0) = F(m - 1, 1)
-F(m, n) = F(m - 1, F(m, n - 1))
-```
+* If you have an even number of bears, your may give back exactly half of your bears.
+* If you have a number of bears divisible by 3, then you may multiply the last two digits of this many bears and give me back that many, and one extra bear for good measure. (Note: the last digit of a number n is n%10, and the next-to-last digit is ((n%10)/10).)
+* If you have a number of bears divisible by 5, then you may give back exactly 42 bears.
+* Otherwise, you give back one bear.
+
+The goal is to end up with **exactly** 42 bears.
+
+For example, if you start with 169 bears:
+* Since 169 is not divisible by 2, 3, or 5, you return 1 bear, leaving you with 168 bears.
+* Since 168 is divisible by 2, you return 84 bears, leaving you with 84 bears.
+* Since 84 is divisible by 2, you return 42 bears, leaving you with 42 bears.
+* You have reached the goal!
 
 ####PROBLEM
 
-Write a program that, given values for `m` and `n`, produces the result of the recursive function.
+Write a program that, given values for the number of bears given, produces "yes" or "no" on each line depending on if you can end up with 42 bears.
 
 Use the file `problem3.practice.txt` to test your program. The final test file will have the same format as the practice file.
 
