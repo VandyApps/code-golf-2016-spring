@@ -106,7 +106,7 @@ You will receive a file containing many strings of numbers, separated by newline
 
 You can assume all the strings you get as input CAN be broken into 2 strings with equal sums of differences. You can also assume that there is only one possible solution to each string of numbers.
 
-###5) Palindrome Substrings (2 points)
+###5) Can you make a palindrome? (2 points)
 
 ####OVERVIEW
 
@@ -114,9 +114,9 @@ A palindrome is a word that reads the same backward as forward.
 
 ####PROBLEM
 
-Write a program that finds the total number of palindrome substrings in a given string. For example, the string `bbdcda` has the substring palindromes `bb` and `dcd`, so your program should return 2.
+Write a program that determines if it is possible to rearrange a given sequence of characters into a palindrome. For example, the string "abcabc" can be rearranged to be "abccba", a palindrome, so your program should return "yes". The string "abc" cannot be rearranged into a palindrome, so your program should return "no".
 
-Do not forget to consider the case in which the entire string is a palindrome (for example, `abcba` => 2).
+A single character is considered to be a palindrome. 
 
 The file `problem5.practice.txt` is sample input for this question and the file `problem5s.practice.txt` is sample output.
 
@@ -124,11 +124,11 @@ The file `problem5.practice.txt` is sample input for this question and the file 
 
 ####OVERVIEW
 
-This problem is the opposite of problem 1. Take a number and compute a Character Notation version of that number (using i's, d's, s's, and o's). See problem 1 for a description of character notation.
+This problem is the opposite of problem 1. Take a number and compute a Character Notation version of that number (using a's, d's, m's, and o's). See problem 1 for a description of character notation.
 
 ####PROBLEM
 
-You will receive a text file containing a set of numbers separated by newlines. Your job is to generate an output file containing the character notations for those numbers. Keep in mind that there are multiple character notation values that map to the same number (i.e. iisio -> 5 and iiiiio -> 5; don't forget to add the o to print out your solution).
+You will receive a text file containing a set of numbers separated by newlines. Your job is to generate an output file containing the character notations for those numbers. Keep in mind that there are multiple character notation values that map to the same number (i.e. aamo -> 8 and aaaao -> 8; don't forget to add the o to print out your solution).
 
 You will receive a perfect "correctness" score if all of your number to
 character count conversions are correct.
