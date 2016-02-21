@@ -92,19 +92,19 @@ Use the file `problem3.practice.txt` to test your program. The final test file w
 
 The file `problem3.practice.txt` is sample input for this question and the file `problem3s.practice.txt` is sample output.
 
-###4) Equal Words (2 points)
+###4) Split the Difference (2 points)
 
 ####OVERVIEW
 
-Each letter is assigned a value: A=1, B=2, C=3... Z=26. A word is given the value of being the sum of all the values of its letters. So, for example, the words BALL has letters with values 2, 1, 12, and 12, so the value of the word is 2 + 1 + 12 + 12 = 27. The goal is to take a word and split it into 2 words, each with equal value. If you receive an input of the word DEBBCAA, you should split this string of letters into the words DE and BBCAA since they both add up to a value of 9.
+A string of numbers contains the numbers 0-9, in strictly increasing order. In between each number, there is a difference. So, for example, the string 025689 has the differences 2, 3, 1, 2, and 1, in order. The goal is to take the string of numbers and split it into two strings, where the sum of the differences is the same in each part. If you receive the string "01268", you should split this string of numbers into the parts "012" and "68" since they both have a sum of differences of 2.
 
 ####PROBLEM
 
-You will receive a file containing many words, separated by newlines. Your goal is to generate an output file containing the words broken into subwords, separated by a space. Sample input and output files are given by `problem4.practice.txt` and `problem4s.practice.txt`, respectively.
+You will receive a file containing many strings of numbers, separated by newlines. Your goal is to generate an output file containing the strings broken into substrings, separated by a space. Sample input and output files are given by `problem4.practice.txt` and `problem4s.practice.txt`, respectively.
 
 ####CLARIFICATION
 
-You can assume all the words you get as input CAN be broken into 2 words of equal length. In addition, all the characters in the words are capitalized, alphabetical characters.
+You can assume all the strings you get as input CAN be broken into 2 strings with equal sums of differences. You can also assume that there is only one possible solution to each string of numbers.
 
 ###5) Palindrome Substrings (2 points)
 
