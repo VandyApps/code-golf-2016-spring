@@ -46,7 +46,7 @@ We can represent numbers in a type of character notation with the following rule
 * m indicates multiply by 2
 * o indicates output
 
-So the following notation maps to numbers:
+So, starting with the value 0, the following notation maps to numbers:
 
 * aao -> 4
 * aaao -> 6
