@@ -89,7 +89,7 @@ The file `problem2.practice.txt` is sample input for this question and the file 
 I decide to give you a lot of teddy bears. You can give me back teddy bears with the following rules:
 
 * If you have an even number of bears, your may give back exactly half of your bears.
-* If you have a number of bears divisible by 3, then you may multiply the last two digits of this many bears and give me back that many, and one extra bear for good measure. (Note: the last digit of a number n is n%10, and the next-to-last digit is ((n%10)/10).)
+* If you have a number of bears divisible by 3, then you may multiply the last two digits of this many bears and give me back that many, and one extra bear for good measure. (Note: the last digit of a number n is n%10, and the next-to-last digit is ((n%100)/10).)
 * If you have a number of bears divisible by 5, then you may give back exactly 42 bears.
 * Otherwise, you give back one bear.
 
