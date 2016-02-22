@@ -18,9 +18,9 @@ If you get a problem wrong, your score for the problem is:
 Each problem has a sample input and sample output file to test your code. With 10 minutes left in the competition, the final input files will be published for anyone to see and process. You have 10 minutes to go through the final input files and produce your final output files, which you should submit via email to [vandyapps@gmail.com](http://mailto:vandyapps@gmail.com).
 
 The final input files will be of the form:
-problem1.final.txt
-problem2.final.txt
-...problem[#].final.txt
+'''problem1.final.txt'''
+'''problem2.final.txt'''
+'''...problem[#].final.txt'''
 
 ###Submission Instructions
 
