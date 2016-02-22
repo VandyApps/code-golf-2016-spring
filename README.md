@@ -66,23 +66,7 @@ The file `problem1.practice.txt` is sample input for this question and the file 
 ####Clarification
 * Each string in character notation will have exactly 1 "o" character. However, that "o" character can appear anywhere in the string.
 
-###2) The VandyNacci Sequence (1 point)
-
-####OVERVIEW
-
-In the Fibonacci sequence, each subsequent number in the sequence is the sum of the prior two numbers. In the *VandyNacci* sequence, each subsequent number in the sequence is the sum of the prior *three* numbers.
-
-0, 1, 1, 2, 4, 7, 13, 24, 44 ...
-
-####PROBLEM
-
-Write a program that produces the sum of all the VandyNacci numbers that are both divisible by 3 **and** under a given number. For example, if given the number 30, your program should produce the result 24.
-
-Warning: Your program should be able to handle the sum of a long sequence of numbers.
-
-The file `problem2.practice.txt` is sample input for this question and the file `problem2s.practice.txt` is sample output.
-
-###3) A Teddy Bear Picnic (2 points)
+###2) A Teddy Bear Picnic (2 points)
 
 ####OVERVIEW
 
@@ -105,11 +89,11 @@ For example, if you start with 169 bears:
 
 Write a program that, given values for the number of bears given, produces "yes" or "no" on each line depending on if you can end up with 42 bears.
 
-Use the file `problem3.practice.txt` to test your program. The final test file will have the same format as the practice file.
+Use the file `problem2.practice.txt` to test your program. The final test file will have the same format as the practice file.
 
-The file `problem3.practice.txt` is sample input for this question and the file `problem3s.practice.txt` is sample output.
+The file `problem2.practice.txt` is sample input for this question and the file `problem2s.practice.txt` is sample output.
 
-###4) Split the Difference (2 points)
+###3) Split the Difference (2 points)
 
 ####OVERVIEW
 
@@ -117,13 +101,13 @@ A string of numbers contains the numbers 0-9, in strictly increasing order. In b
 
 ####PROBLEM
 
-You will receive a file containing many strings of numbers, separated by newlines. Your goal is to generate an output file containing the strings broken into substrings, separated by a space. Sample input and output files are given by `problem4.practice.txt` and `problem4s.practice.txt`, respectively.
+You will receive a file containing many strings of numbers, separated by newlines. Your goal is to generate an output file containing the strings broken into substrings, separated by a space. Sample input and output files are given by `problem3.practice.txt` and `problem3s.practice.txt`, respectively.
 
 ####CLARIFICATION
 
 You can assume all the strings you get as input CAN be broken into 2 strings with equal sums of differences. You can also assume that there is only one possible solution to each string of numbers.
 
-###5) Can you make a palindrome? (2 points)
+###4) Can you make a palindrome? (2 points)
 
 ####OVERVIEW
 
@@ -135,9 +119,9 @@ Write a program that determines if it is possible to rearrange a given sequence 
 
 A single character is considered to be a palindrome. 
 
-The file `problem5.practice.txt` is sample input for this question and the file `problem5s.practice.txt` is sample output.
+The file `problem4.practice.txt` is sample input for this question and the file `problem4s.practice.txt` is sample output.
 
-###6) Number to Character Notation (3 points)
+###5) Number to Character Notation (3 points)
 
 ####OVERVIEW
 
@@ -153,5 +137,21 @@ character count conversions are correct.
 The non-whitespace length of your converted solutions will be added to your
 "Code Golf" score. Therefore you want to produce the most optimal conversion so
 that your code golf score remains low.
+
+The file `problem5.practice.txt` is sample input for this question and the file `problem5s.practice.txt` is sample output.
+
+###6) The VandyNacci Sequence (3 point)
+
+####OVERVIEW
+
+In the Fibonacci sequence, each subsequent number in the sequence is the sum of the prior two numbers. In the *VandyNacci* sequence, each subsequent number in the sequence is the sum of the prior *three* numbers.
+
+0, 1, 1, 2, 4, 7, 13, 24, 44 ...
+
+####PROBLEM
+
+Write a program that produces the sum of all the VandyNacci numbers that are both divisible by 3 **and** under a given number. For example, if given the number 30, your program should produce the result 24.
+
+Warning: Your program should be able to handle extremely large numbers. It should also *not* expect the numbers given to be in increasing order.
 
 The file `problem6.practice.txt` is sample input for this question and the file `problem6s.practice.txt` is sample output.
