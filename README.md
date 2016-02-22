@@ -3,39 +3,45 @@ CODE  GOLF
 
 ###Objective:
 
-Solve as many coding problems as possible in the given time. Make sure to use as little code as possible to compute your solutions.  There are a total of 6 problems that need to be solved. Each problem is scored based upon a combination of correctness and number of characters used.
+Solve as many coding problems as possible in the given time. The goal is to use as little code as possible to compute your solutions.  There are a total of 6 problems that need to be solved. Each problem is scored based upon a combination of correctness and number of characters used.
 
 If you get a problem correct, your score for the problem is:
 ```characterCount / problemDifficulty```
 
-If you get a problem wrong, your score for the problem is:
-```problemPenalty / problemDifficulty```
+where characterCount is the amount of characters in your code file (not output file) for the problem being scored
 
-Each problem has a sample input and sample output file to test your coded. For the last 10 minutes of the competition, the final input files will be published for anyone to see and process. You have 10 minutes to go through the final input files and produce your final output files, which you should submit via email to [vandyapps@gmail.com](http://mailto:vandyapps@gmail.com).
+If you get a problem wrong, your score for the problem is:
+``` 800 / problemDifficulty```
+
+Each problem has a sample input and sample output file to test your code. With 10 minutes left in the competition, the final input files will be published for anyone to see and process. You have 10 minutes to go through the final input files and produce your final output files, which you should submit via email to [vandyapps@gmail.com](http://mailto:vandyapps@gmail.com).
+
+The final input files will be of the form:
+problem1.final.txt
+problem2.final.txt
+...problem[#].final.txt
 
 ###Submission Instructions
 
-You will be submitting 2 files per problem that you attempt to solve, a file containing the output solution and another file containing the code used to compute the solution. Your code will not be executed or interpreted, but will be used to compute your code golf score.
+You will be submitting 2 files per problem that you attempt to solve, a file containing the code used to compute the solutions, and a file containing its outputs. Your code will not be executed or interpreted, but will be used to compute your code golf score.
 
 The programming files that you submit must look something like:
 * donnyt.4.js
 * sandersb.3.php
 * [vunetID].[problem #].[extension]
 
-This contains your vunet id, followed by a dot, then the problem number this program is for, followed by another dot, and finally the executable extension. The extension is not important and not used (you can program in any language you would like).
+This contains your vunet id, followed by a dot, then the problem number this program is for, followed by another dot, and finally the executable extension. You can program in any language you would like.
 
 Your output files must be in the following format. Note the extension, ''.txt'':
 * donnyt.4.txt
 * sandersb.1.txt
 * [vunetID].[problem #].txt
 
-The solution files have a similar format to your program files, except each problem number must be followed by the "s" suffix, indicating "solution".
-
 Submit these files to the vandyapps@gmail.com email with a subject line like "code golf" so that it is clear the solution is meant for code golf.
 
 Please zip or tar your files before submitting them.
 
-###1) Character Notation to Number (1 point)
+###1) Decoding
+Difficulty level 1
 
 ####OVERVIEW
 
@@ -58,7 +64,7 @@ Note that the o character does not change the value of the number but just indic
 So, aaoa will output 4 since o shows up before the last a "add 2".
 
 
-####PROBLEM
+####PROBLEM: 
 Create a program that converts a file of character notation values into a file of numbers.
 
 The file `problem1.practice.txt` is sample input for this question and the file `problem1s.practice.txt` is sample output.
@@ -66,16 +72,17 @@ The file `problem1.practice.txt` is sample input for this question and the file 
 ####Clarification
 * Each string in character notation will have exactly 1 "o" character. However, that "o" character can appear anywhere in the string.
 
-###2) A Teddy Bear Picnic (2 points)
+###2) A Teddy Bear Picnic
+Difficulty level 2
 
 ####OVERVIEW
 
 I decide to give you a lot of teddy bears. You can give me back teddy bears with the following rules:
 
 * If you have an even number of bears, your may give back exactly half of your bears.
-* If you have a number of bears divisible by 3, then you may multiply the last two digits of this many bears and give me back that many, and one extra bear for good measure. (Note: the last digit of a number n is n%10, and the next-to-last digit is ((n%100)/10).)
+* If you have a number of bears that is divisible by 3, then you may multiply the last two digits of this many bears and give me back that many, and one extra bear for good measure. (Note: the last digit of a number n is n%10, and the next-to-last digit is ((n%100)/10).)
 * If you have a number of bears divisible by 5, then you may give back exactly 42 bears.
-* Otherwise, you give back one bear.
+* Otherwise, you can only give back one bear.
 
 The goal is to end up with **exactly** 42 bears.
 
@@ -93,7 +100,8 @@ Use the file `problem2.practice.txt` to test your program. The final test file w
 
 The file `problem2.practice.txt` is sample input for this question and the file `problem2s.practice.txt` is sample output.
 
-###3) Split the Difference (2 points)
+###3) Split the Difference
+Difficulty level 2
 
 ####OVERVIEW
 
@@ -107,7 +115,8 @@ You will receive a file containing many strings of numbers, separated by newline
 
 You can assume all the strings you get as input CAN be broken into 2 strings with equal sums of differences. You can also assume that there is only one possible solution to each string of numbers.
 
-###4) Can you make a palindrome? (2 points)
+###4) Is it palindrome-able?
+Difficulty level 2
 
 ####OVERVIEW
 
@@ -115,13 +124,14 @@ A palindrome is a word that reads the same backward as forward.
 
 ####PROBLEM
 
-Write a program that determines if it is possible to rearrange a given sequence of characters into a palindrome. For example, the string "abcabc" can be rearranged to be "abccba", a palindrome, so your program should return "yes". The string "abc" cannot be rearranged into a palindrome, so your program should return "no".
+Write a program that determines if it is possible to rearrange a given sequence of characters into a palindrome. For example, the string "abcabc" can be rearranged to be "abccba", which is a palindrome, so your program should return "yes". The string "abc" cannot be rearranged into a palindrome, so your program should return "no".
 
 A single character is considered to be a palindrome. 
 
 The file `problem4.practice.txt` is sample input for this question and the file `problem4s.practice.txt` is sample output.
 
-###5) Number to Character Notation (3 points)
+###5) Encoding
+Difficulty level 3
 
 ####OVERVIEW
 
@@ -135,12 +145,12 @@ You will receive a perfect "correctness" score if all of your number to
 character count conversions are correct.
 
 The non-whitespace length of your converted solutions will be added to your
-"Code Golf" score. Therefore you want to produce the most optimal conversion so
-that your code golf score remains low.
+"Code Golf" score.
 
 The file `problem5.practice.txt` is sample input for this question and the file `problem5s.practice.txt` is sample output.
 
-###6) The VandyNacci Sequence (3 point)
+###6) The VandyNacci Sequence
+Difficulty level 3
 
 ####OVERVIEW
 
